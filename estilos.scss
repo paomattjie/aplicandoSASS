@@ -26,16 +26,16 @@ body{
 header{
     grid-area: header;
 
-    .navbar{
+    & .navbar{
     background-color: $rojoCentral !important;
-        a{
+        & a{
             color: $colorDos !important;
         }
-        .navbar-brand{
+        & .navbar-brand{
             font-family:$fuenteTitulos;
             font-size: 35px;
         }
-        .nav-link{
+        & .nav-link{
             font-family: $fuenteTextos;
             font-size: 20px;
         }
@@ -47,7 +47,7 @@ main{
 grid-area: main;
 background-color: rgb(9, 9, 48);
 
-    p{
+    & p{
         color: $colorDos;
         font-family: 'Dancing Script', cursive;
         font-size: 40px;
@@ -60,14 +60,15 @@ background-color: rgb(9, 9, 48);
 .section1{
     grid-area: section1;
     background-color: darkslategrey;
-    h3{
+    
+    & h3{
         color: $colorDos;
         font-family: $fuenteTitulos;
         font-size: 30px;
         text-align: center;
         margin-left: 20px;
     }
-    p{
+    & p{
         color: $colorDos;
         font-family: $fuenteTextos;
         font-size: 20px;
@@ -82,14 +83,15 @@ aside{
     height: 100%;
     align-content: center;
     background-color: darkred;
-    h3{
+
+    & h3{
         color: $colorDos;
         font-family: $fuenteTitulos;
         font-size: 30px;
         text-align: left;
         margin-left: 20px;
     }
-    article{
+    & article{
         color:lightblue;
         font-family: $fuenteTextos;
         font-size: 20px;
@@ -102,14 +104,15 @@ aside{
 .section2{
     grid-area: section2;
     background-color: darkslategrey;
-    h3{
+
+    & h3{
         color: $colorDos;
         font-family: $fuenteTitulos;
         font-size: 30px;
         text-align: center;
         margin-left: 20px;
     }
-    p{
+    & p{
         color: $colorDos;
         font-family: $fuenteTextos;
         font-size: 20px;
@@ -125,7 +128,7 @@ display: flex;
 justify-content: center;
 background-color: rgb(13, 13, 29);
 
-    h4{
+    & h4{
         font-family: $fuenteTitulos;
         font-size: 27px;
         text-align: center;
