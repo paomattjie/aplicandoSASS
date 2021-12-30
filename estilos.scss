@@ -1,0 +1,81 @@
+/* import de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Comfortaa:wght@500&family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Noto+Sans:ital@1&family=Patrick+Hand&family=Permanent+Marker&family=Roboto:wght@100&family=Special+Elite&display=swap');
+
+// VARS
+$rojoCentral:rgb(149, 1, 1);
+$colorDos: blanchedalmond;
+$fuenteTitulos: 'Permanent Marker';
+$fuenteTextos: 'Alata', sans-serif;
+
+/*estilos body*/
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+/*estilos navbar*/
+header{
+    .navbar{
+    background-color: $rojoCentral !important;
+        a{
+            color: $colorDos !important;
+        }
+        .navbar-brand{
+            font-family:$fuenteTitulos;
+            font-size: 35px;
+        }
+        .nav-link{
+            font-family: $fuenteTextos;
+            font-size: 20px;
+        }
+    }
+}
+
+/*estilos de texto principal*/
+main{
+    p{
+        color: $colorDos;
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+/*estilos del artículo*/
+section{
+    h3{
+        color: $colorDos;
+        font-family: $fuenteTitulos;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    p{
+        color: $colorDos;
+        font-family: $fuenteTextos;
+        font-size: 20px;
+        margin: 20px;
+        text-align: left;
+    }
+}
+
+/*estilos de publicidad*/ 
+aside{
+    h3{
+        color: $colorDos;
+        font-family: $fuenteTitulos;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    article{
+        color:lightblue;
+        font-family: $fuenteTextos;
+        
+    }
+}
+
+
+

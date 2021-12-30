@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* import de fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Comfortaa:wght@500&family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Noto+Sans:ital@1&family=Patrick+Hand&family=Permanent+Marker&family=Roboto:wght@100&family=Special+Elite&display=swap");
+/*estilos body*/
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+/*estilos navbar*/
+header .navbar {
+  background-color: #950101 !important;
+}
+
+header .navbar a {
+  color: blanchedalmond !important;
+}
+
+header .navbar .navbar-brand {
+  font-family: "Permanent Marker";
+  font-size: 35px;
+}
+
+header .navbar .nav-link {
+  font-family: "Alata", sans-serif;
+  font-size: 20px;
+}
+
+/*estilos de texto principal*/
+main p {
+  color: blanchedalmond;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+/*estilos del artículo*/
+section h3 {
+  color: blanchedalmond;
+  font-family: "Permanent Marker";
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+section p {
+  color: blanchedalmond;
+  font-family: "Alata", sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
+/*estilos de publicidad*/
+aside h3 {
+  color: blanchedalmond;
+  font-family: "Permanent Marker";
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+aside article {
+  color: lightblue;
+  font-family: "Alata", sans-serif;
+}
+/*# sourceMappingURL=estilos.css.map */
